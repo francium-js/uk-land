@@ -3,7 +3,7 @@ import { RouterProvider } from 'react-router-dom'
 
 import { Router } from 'src/routes'
 
-import 'src/App.css'
+import '/src/App.css'
 import LoadingPage from 'src/pages/LoadingPage'
 import { ModalProvider } from 'src/Context/ModalContext'
 
