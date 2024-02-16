@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from 'react'
 
-import {
+import type {
   ModalProviderProps,
   ModalContextProps,
 } from 'src/Context/ModalContext/types'

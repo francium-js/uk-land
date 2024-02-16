@@ -38,6 +38,7 @@ export const PriceBox = styled.div`
     }
   }
 `
+
 export const AboutBox = styled.div`
   padding: 40px 40px;
   gap: 20px;

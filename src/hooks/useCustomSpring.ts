@@ -29,6 +29,7 @@ export const useCustomSpring = (componentId: string) => {
     }
 
     window.addEventListener('scroll', handleScroll)
+
     return () => {
       window.removeEventListener('scroll', handleScroll)
     }

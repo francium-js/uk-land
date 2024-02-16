@@ -14,6 +14,7 @@ export const Header = styled.div`
     transform: translateY(-100%);
   }
 `
+
 export const HeaderContainer = styled.div`
   padding: 15px 100px;
   justify-content: space-between;

@@ -9,6 +9,7 @@ const RulePage = (): JSX.Element => {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
+
   return (
     <Container>
       {Object.entries(rulesData).map(([key, value], i) => (

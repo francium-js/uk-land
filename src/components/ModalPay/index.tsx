@@ -44,7 +44,11 @@ const ModalPay = (): JSX.Element => {
               Очікуйте відповіді протягом 24-48годин!
             </p>
           </Info>
-          <a target="_blank" href="https://send.monobank.ua/jar/UbQzFQ5u7">
+          <a
+            target="_blank"
+            href="https://send.monobank.ua/jar/UbQzFQ5u7"
+            rel="noreferrer"
+          >
             <button>Купити прохідку</button>
           </a>
         </Container>

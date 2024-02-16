@@ -10,7 +10,12 @@ const SocialCard = ({ title, img, href }: SocialCardProps): JSX.Element => {
   const propsString = useCustomSpring(COMPONENT_IDS.SOCIAL + title)
 
   return (
-    <CardContainer href={href} style={propsString} id={COMPONENT_IDS.SOCIAL + title}>
+    <CardContainer
+      target="_blank"
+      href={href}
+      style={propsString}
+      id={COMPONENT_IDS.SOCIAL + title}
+    >
       <img src={img} width="80px" />
     </CardContainer>
   )

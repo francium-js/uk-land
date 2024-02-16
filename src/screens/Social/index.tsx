@@ -10,7 +10,7 @@ const Social = (): JSX.Element => {
     <>
       <MainTitle text="Соц.мережі UK-LAND" />
       <Container>
-        {props.map(({ path, icon, title }) => (
+        {[...props].map(({ path, icon, title }) => (
           <SocialCard key={title} href={path} img={icon} title={title} />
         ))}
       </Container>

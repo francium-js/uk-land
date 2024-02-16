@@ -10,6 +10,8 @@
     "extraFileExtensions": [".css"],
   },
   "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "plugin:react-hook-form/recommended",
     "plugin:import/typescript",

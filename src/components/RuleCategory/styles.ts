@@ -18,7 +18,7 @@ export const CategoryTitle = styled.h1`
 `
 
 export const Arrow = styled.span`
-  left: -25px;
+  left: -30px;
   position: absolute;
   font-family: 'Minecraft', sans-serif;
   transition: transform 0.3s ease;
