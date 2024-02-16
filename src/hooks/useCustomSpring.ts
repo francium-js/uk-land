@@ -14,6 +14,7 @@ export const useCustomSpring = (componentId: string) => {
 
   const handleScroll = () => {
     const element = document.getElementById(componentId)
+
     if (element) {
       const rect = element.getBoundingClientRect()
       setIsVisible(rect.top < window.innerHeight)

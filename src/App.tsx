@@ -1,11 +1,11 @@
 import { Suspense, useEffect } from 'react'
 import { RouterProvider } from 'react-router-dom'
 
-import { Router } from 'src/routes'
+import { Router } from './routes'
 
-import '/src/App.css'
-import LoadingPage from 'src/pages/LoadingPage'
-import { ModalProvider } from 'src/Context/ModalContext'
+import './App.css'
+import LoadingPage from './pages/LoadingPage'
+import { ModalProvider } from './Context/ModalContext'
 
 const App = () => {
   useEffect(() => {

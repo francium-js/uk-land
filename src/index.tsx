@@ -1,9 +1,9 @@
 import { createRoot } from 'react-dom/client'
 
-import App from 'src/App.tsx'
+import App from './App.tsx'
 
-import '/src/index.css'
-import 'src/assets/fonts/fonts.css'
+import './index.css'
+import './assets/fonts/fonts.css'
 
 const root = document.getElementById('root')
 
