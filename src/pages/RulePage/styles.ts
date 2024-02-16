@@ -6,7 +6,7 @@ export const Container = styled.ul`
   flex-direction: column;
 
   @media screen and (max-width: 750px) {
-    padding: 150px 10px 100px 35px;
+    padding: 150px 10px 100px 40px;
   }
 
   & > li {
