@@ -6,7 +6,7 @@ import { useCustomSpring } from 'src/hooks/useCustomSpring'
 
 import { CardContainer } from 'src/components/Social/styles'
 
-const SocialCard = ({ title, img, href }: SocialCardProps): JSX.Element => {
+const SocialCard = ({ title, img, href, alt }: SocialCardProps): JSX.Element => {
   const propsString = useCustomSpring(COMPONENT_IDS.SOCIAL + title)
 
   return (
@@ -14,9 +14,10 @@ const SocialCard = ({ title, img, href }: SocialCardProps): JSX.Element => {
       target="_blank"
       href={href}
       style={propsString}
+      aria-label={alt}
       id={COMPONENT_IDS.SOCIAL + title}
     >
-      <img src={img} width="80px" />
+      <img src={img} width="80px" alt={alt} />
     </CardContainer>
   )
 }

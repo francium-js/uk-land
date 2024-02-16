@@ -19,7 +19,7 @@ const Advantages = (): JSX.Element => {
 
   return (
     <AdvantagesSection id="advantages">
-      <MainTitle text="Наші переваги" icon="assets/beeGif.gif" />
+      <MainTitle text="Наші переваги" icon="assets/beeGif.gif" alt="bee" />
 
       <CardContainer>
         {advantages.map(({ title, text }, i: number) => (

@@ -10,7 +10,7 @@ const Navbar = (): JSX.Element => {
   return (
     <Header className={isScrollingUp ? '' : 'header hidden'}>
       <HeaderContainer>
-        <img onClick={() => navigate('/')} src="assets/logo.svg" />
+        <img onClick={() => navigate('/')} src="assets/logo.svg" alt="header logo" />
 
         <div>
           <NavList>

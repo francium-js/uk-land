@@ -19,7 +19,7 @@ const Main = (): JSX.Element => {
   return (
     <HeroSection>
       <Container style={props}>
-        <img src="/assets/logo.svg" />
+        <img src="/assets/logo.svg" alt="main logo" />
         <ButtonsContainer>
           <HeroButton
             icon={play()}

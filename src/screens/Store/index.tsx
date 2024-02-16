@@ -12,7 +12,7 @@ const Store = (): JSX.Element => {
 
   return (
     <StoreSection id="store">
-      <MainTitle text="Купити прохідку" icon="assets/fishGif.gif" />
+      <MainTitle text="Купити прохідку" icon="assets/fishGif.gif" alt="axolotl" />
       <animated.div style={{ ...springProps }}>
         <PayForm />
       </animated.div>
