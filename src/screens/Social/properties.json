@@ -1,0 +1,27 @@
+[
+  {
+    "path": "https://www.tiktok.com/@uklandproject",
+    "icon": "assets/tiktok1.png",
+    "title": "TikTok"
+  },
+  {
+    "path": "https://discord.com/invite/wGPaVgsQAh",
+    "icon": "assets/discord.png",
+    "title": "Discord"
+  },
+  {
+    "path": "https://t.me/uklandproject",
+    "icon": "assets/telegram.png",
+    "title": "Telegram"
+  },
+  {
+    "path": "https://www.instagram.com/uk.lland",
+    "icon": "assets/instagram.png",
+    "title": "Instagram"
+  },
+  {
+    "path": "https://www.youtube.com/@uklandproject",
+    "icon": "assets/youtube.png",
+    "title": "Youtube"
+  }
+]
