@@ -29,20 +29,25 @@ export const ContainerWrapper = styled.div`
 `
 
 export const Container = styled.div`
-  height: 500px;
+  height: 420px;
   overflow-y: auto;
   scrollbar-width: thin;
   position: relative;
   background-color: rgba(0, 0, 0, 0.35);
   border-radius: 10px;
   border: 2px solid white;
-  padding: 60px 60px 60px 60px;
+  padding: 40px 60px 30px 60px;
 
   @media screen and (max-width: 500px) {
     padding: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
   }
+`
 
-  button {
+export const ButtonWrapper = styled.div`
+  margin-top: 30px;
+  text-align: center;
+  a {
     cursor: pointer;
     font-size: 30px;
     margin-top: 50px;

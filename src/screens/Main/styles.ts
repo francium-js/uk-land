@@ -6,12 +6,16 @@ export const HeroSection = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url('assets/background6.gif');
+  background-image: url('/assets/background.gif');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: rgba(107, 220, 51, 0.02);
+
+  @media screen and (max-width: 500px) {
+    background-image: none;
+  }
 `
 
 export const Container = styled(animated.div)`

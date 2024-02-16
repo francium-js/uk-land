@@ -7,6 +7,7 @@ import {
   Container,
   Info,
   ContainerWrapper,
+  ButtonWrapper,
   CloseButton,
   Breeze,
   Cloud_1,
@@ -44,13 +45,15 @@ const ModalPay = (): JSX.Element => {
               Очікуйте відповіді протягом 24-48годин!
             </p>
           </Info>
-          <a
-            target="_blank"
-            href="https://send.monobank.ua/jar/UbQzFQ5u7"
-            rel="noreferrer"
-          >
-            <button>Купити прохідку</button>
-          </a>
+          <ButtonWrapper>
+            <a
+              target="_blank"
+              href="https://send.monobank.ua/jar/UbQzFQ5u7"
+              rel="noreferrer"
+            >
+              Купити прохідку
+            </a>
+          </ButtonWrapper>
         </Container>
       </ContainerWrapper>
     </ModalBackground>
