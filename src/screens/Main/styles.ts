@@ -18,6 +18,7 @@ export const HeroSection = styled.div`
     width: 100vw;
     padding-top: 50px;
     background-image: url('/assets/bg_phone.gif');
+    background-size: contain;
   }
 `
 
