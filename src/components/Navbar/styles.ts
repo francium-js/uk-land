@@ -21,11 +21,11 @@ export const HeaderContainer = styled.div`
   display: flex;
   align-items: center;
 
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 767px) {
     padding: 15px 50px;
   }
 
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 390px) {
     padding: 15px 20px;
   }
 
@@ -64,7 +64,7 @@ export const NavList = styled.div`
     margin-left: 60px;
   }
 
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 767px) {
     & > p + p {
       margin-left: 20px;
     }

@@ -7,7 +7,7 @@ export const FormBox = styled.div`
   background: rgba(217, 217, 217, 0.05);
   justify-content: space-between;
 
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 767px) {
     flex-direction: column;
     align-items: center;
     gap: 15px;
@@ -52,6 +52,10 @@ export const AboutBox = styled.div`
     font-size: 20px;
     font-weight: 600;
     line-height: normal;
+    @media screen and (max-width: 390px) {
+      font-size: 14px;
+      font-weight: 300;
+    }
   }
 `
 

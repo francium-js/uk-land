@@ -23,7 +23,7 @@ export const ContainerWrapper = styled.div`
   position: relative;
   margin: 0px 50px;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 390px) {
     margin: 0px 20px;
   }
 `
@@ -38,7 +38,7 @@ export const Container = styled.div`
   border: 2px solid white;
   padding: 40px 60px 30px 60px;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 390px) {
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.8);
   }
@@ -74,7 +74,7 @@ export const Breeze = styled.img`
   left: 0px;
   translate: -50% -50%;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 390px) {
     display: none;
   }
 
@@ -100,7 +100,7 @@ export const Cloud_1 = styled.img`
   top: 0px;
   transform: rotate(-25deg);
   translate: 50% -50%;
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 390px) {
     display: none;
   }
 
@@ -125,7 +125,7 @@ export const Cloud_2 = styled.img`
   bottom: 0px;
   transform: rotate(-50deg);
   translate: 40% 40%;
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 390px) {
     display: none;
   }
 
@@ -150,7 +150,7 @@ export const Cloud_3 = styled.img`
   bottom: 0px;
   transform: rotate(25deg);
   translate: -40% 40%;
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 390px) {
     display: none;
   }
 

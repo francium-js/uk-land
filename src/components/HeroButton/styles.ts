@@ -13,6 +13,10 @@ export const Button = styled.button`
     transform 0.1s ease-in-out,
     opacity 0.05s ease;
 
+  @media screen and (max-width: 390px) {
+    font-size: 15px;
+  }
+
   &.active {
     opacity: 0.1;
   }

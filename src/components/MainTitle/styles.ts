@@ -11,7 +11,7 @@ export const Container = styled(animated.span)`
     font-family: 'Minecraft', sans-serif;
     text-align: center;
     font-size: 50px;
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 767px) {
       font-size: 25px;
     }
   }
@@ -21,7 +21,7 @@ export const Container = styled(animated.span)`
     bottom: 4px;
     width: 100px;
     margin-left: 20px;
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 767px) {
       width: 70px;
       margin-left: 10px;
     }

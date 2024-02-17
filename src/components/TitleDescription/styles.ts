@@ -8,4 +8,10 @@ export const Title = styled.span`
   & > h1 {
     font-family: 'Minecraft', sans-serif;
   }
+
+  & > h1 {
+    @media screen and (max-width: 390px) {
+      font-size: 22px;
+    }
+  }
 `

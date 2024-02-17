@@ -13,8 +13,9 @@ export const HeroSection = styled.div`
   background-size: cover;
   color: rgba(107, 220, 51, 0.02);
 
-  @media screen and (max-width: 500px) {
-    background-image: none;
+  @media screen and (max-width: 390px) {
+    padding-top: 40px;
+    background-image: url('/assets/bg_phone.gif');
   }
 `
 
@@ -33,6 +34,10 @@ export const HeroText = styled.p`
   border-radius: 25px;
   font-size: 25px;
   padding: 0px 20px;
+  @media screen and (max-width: 390px) {
+    font-size: 14px;
+    font-weight: 300;
+  }
 `
 
 export const ButtonsContainer = styled.div`

@@ -12,4 +12,9 @@ export const Text = styled.p`
   font-weight: 400;
   display: flex;
   line-height: normal;
+
+  @media screen and (max-width: 390px) {
+    font-size: 14px;
+    font-weight: 300;
+  }
 `
