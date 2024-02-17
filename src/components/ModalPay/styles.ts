@@ -24,7 +24,7 @@ export const ContainerWrapper = styled.div`
   margin: 0px 50px;
 
   @media screen and (max-width: 390px) {
-    height: 80%;
+    height: 70%;
     margin: 0px 20px;
   }
 `
