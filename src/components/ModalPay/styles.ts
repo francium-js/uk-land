@@ -41,7 +41,7 @@ export const Container = styled.div`
 
   @media screen and (max-width: 390px) {
     height: 100%;
-    padding: 30px;
+    padding: 20px;
     background-color: rgba(0, 0, 0, 0.8);
   }
 `
@@ -81,8 +81,7 @@ export const Breeze = styled.img`
   translate: -50% -50%;
 
   @media screen and (max-width: 390px) {
-    translate: -35% -60%;
-    width: 100px;
+    display: none;
   }
 
   animation: animation_Breeze 8s infinite ease-in-out;
@@ -108,7 +107,7 @@ export const Cloud_1 = styled.img`
   transform: rotate(-25deg);
   translate: 30% -50%;
   @media screen and (max-width: 390px) {
-    width: 80px;
+    display: none;
   }
 
   animation: animation_Cloud_1 6s infinite ease-in-out;
@@ -133,8 +132,7 @@ export const Cloud_2 = styled.img`
   transform: rotate(-50deg);
   translate: 40% 40%;
   @media screen and (max-width: 390px) {
-    translate: 30% 120%;
-    width: 110px;
+    display: none;
   }
 
   animation: animation_Cloud_2 10s infinite ease-in-out;
@@ -159,8 +157,7 @@ export const Cloud_3 = styled.img`
   transform: rotate(25deg);
   translate: -40% 40%;
   @media screen and (max-width: 390px) {
-    translate: -40% 120%;
-    width: 90px;
+    display: none;
   }
 
   animation: animation_Cloud_3 10s infinite ease-in-out;
