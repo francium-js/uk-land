@@ -24,12 +24,13 @@ export const ContainerWrapper = styled.div`
   margin: 0px 50px;
 
   @media screen and (max-width: 390px) {
+    height: 80%;
     margin: 0px 20px;
   }
 `
 
 export const Container = styled.div`
-  height: 420px;
+  height: 440px;
   overflow-y: auto;
   scrollbar-width: thin;
   position: relative;
@@ -39,6 +40,7 @@ export const Container = styled.div`
   padding: 40px 60px 30px 60px;
 
   @media screen and (max-width: 390px) {
+    height: 100%;
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.8);
   }
@@ -59,6 +61,10 @@ export const ButtonWrapper = styled.div`
     transition:
       color 0.2s ease,
       border-color 0.2s ease;
+
+    @media screen and (max-width: 390px) {
+      font-size: 16px;
+    }
 
     &:hover {
       border-color: #209ac4;
@@ -179,6 +185,12 @@ export const Info = styled.div`
     font-size: 25px;
     font-weight: 600;
     color: white;
+    & {
+      @media screen and (max-width: 390px) {
+        font-size: 20px;
+        font-weight: 300;
+      }
+    }
   }
   p + h1 {
     margin-top: 30px;
@@ -187,5 +199,11 @@ export const Info = styled.div`
     color: white;
     font-size: 18px;
     opacity: 0.9;
+    & {
+      @media screen and (max-width: 390px) {
+        font-size: 14px;
+        font-weight: 300;
+      }
+    }
   }
 `

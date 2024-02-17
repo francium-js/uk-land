@@ -9,11 +9,18 @@ export const CategoryTitle = styled.h1`
   cursor: pointer;
   position: relative;
   display: inline;
+  user-select: none;
   margin-left: 35px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
+
+  & {
+    @media screen and (max-width: 390px) {
+      font-size: 15px;
+      font-weight: 300;
+    }
+  }
 `
 
 export const Arrow = styled.span`
@@ -55,5 +62,11 @@ export const Rules = styled.ul`
 
   & > li + li {
     margin-top: 8px;
+  }
+
+  & > li {
+    @media screen and (max-width: 390px) {
+      font-size: 12px;
+    }
   }
 `
