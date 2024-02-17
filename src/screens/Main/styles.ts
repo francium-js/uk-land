@@ -14,11 +14,16 @@ export const HeroSection = styled.div`
   color: rgba(107, 220, 51, 0.02);
 
   @media screen and (max-width: 390px) {
-    height: 100%;
-    width: 100vw;
     padding-top: 50px;
-    background-image: url('/assets/bg_phone.gif');
-    background-size: contain;
+    background-image: none;
+    background: linear-gradient(
+      25deg,
+      rgba(71, 74, 78, 1) 0%,
+      rgba(55, 55, 66, 1) 18%,
+      rgba(47, 102, 107, 1) 46%,
+      rgba(45, 64, 82, 1) 77%,
+      rgba(32, 154, 196, 1) 100%
+    );
   }
 `
 
