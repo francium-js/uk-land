@@ -14,8 +14,8 @@ export const HeroSection = styled.div`
   color: rgba(107, 220, 51, 0.02);
 
   @media screen and (max-width: 390px) {
-    height: 100vh;
-    background-size: contain;
+    height: 100%;
+    width: 100vw;
     padding-top: 40px;
     background-image: url('/assets/bg_phone.gif');
   }
