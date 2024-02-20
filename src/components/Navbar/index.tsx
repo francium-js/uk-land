@@ -15,6 +15,7 @@ const Navbar = (): JSX.Element => {
         <div>
           <NavList>
             <p onClick={() => navigate(RoutesPath.RULES)}>Правила</p>
+            <p onClick={() => navigate(RoutesPath.WIKI)}>Wiki</p>
           </NavList>
         </div>
       </HeaderContainer>
