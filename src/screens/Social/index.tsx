@@ -8,7 +8,7 @@ import { Container } from 'src/screens/Social/styles'
 const Social = (): JSX.Element => {
   return (
     <>
-      <MainTitle text="Соц.мережі UK-LAND" />
+      <MainTitle text="Соц.мережі UKLand" />
       <Container>
         {[...props].map(({ path, icon, title, alt }) => (
           <SocialCard key={title} href={path} img={icon} title={title} alt={alt} />

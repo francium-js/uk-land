@@ -47,20 +47,29 @@ export const Container = styled.div`
 `
 
 export const ButtonWrapper = styled.div`
-  margin-top: 30px;
-  text-align: center;
+  @media screen and (max-width: 750px) {
+    margin-top: 50px;
+  }
+
+  @media screen and (max-width: 390px) {
+    margin-top: 50px;
+  }
+
   a {
     cursor: pointer;
     font-size: 30px;
-    margin-top: 50px;
     background: none;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border-radius: 5px;
     border: 1px solid white;
     transition:
       color 0.2s ease,
       border-color 0.2s ease;
+
+    @media screen and (max-width: 750px) {
+      font-size: 18px;
+    }
 
     @media screen and (max-width: 390px) {
       font-size: 16px;
@@ -71,6 +80,13 @@ export const ButtonWrapper = styled.div`
       color: #209ac4;
     }
   }
+`
+
+export const ButtonContainer = styled.div`
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 `
 
 export const Breeze = styled.img`

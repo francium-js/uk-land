@@ -7,6 +7,7 @@ import {
   Container,
   Info,
   ContainerWrapper,
+  ButtonContainer,
   ButtonWrapper,
   CloseButton,
   Breeze,
@@ -38,22 +39,33 @@ const ModalPay = (): JSX.Element => {
               суму прохідки! <br />
             </p>
             <h1>
-              На місяць - 50грн. <br /> Назавжди - 150грн.
+              На місяць - 50 грн. <br /> Назавжди - 250 грн.
             </h1>
             <p>
               Під платіж, вкажіть Ваш discord, щоб з вами зв'язався Адміністратор!
               Очікуйте відповіді протягом 24-48годин!
             </p>
           </Info>
-          <ButtonWrapper>
-            <a
-              target="_blank"
-              href="https://send.monobank.ua/jar/UbQzFQ5u7"
-              rel="noreferrer"
-            >
-              Купити прохідку
-            </a>
-          </ButtonWrapper>
+          <ButtonContainer>
+            <ButtonWrapper>
+              <a
+                target="_blank"
+                href="https://send.monobank.ua/jar/UbQzFQ5u7"
+                rel="noreferrer"
+              >
+                Купити прохідку
+              </a>
+            </ButtonWrapper>
+            <ButtonWrapper>
+              <a
+                target="_blank"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScYLIipjEeJG3FLRG-1jtfjYGGahLSLQiYROPfp6ZDK0WOgAQ/viewform"
+                rel="noreferrer"
+              >
+                Денна прохідка
+              </a>
+            </ButtonWrapper>
+          </ButtonContainer>
         </Container>
       </ContainerWrapper>
     </ModalBackground>
