@@ -7,6 +7,7 @@ export type AchievementsMapProps = {
 export type Achievement = {
   top: number
   left: number
+  figure?: string
   itemIcon: string
   title: string
   description: string
