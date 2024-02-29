@@ -1,6 +1,17 @@
+import { useEffect } from 'react'
 import { Container } from 'src/pages/LoadingPage/styles'
 
 const LoadingPage = () => {
+  useEffect(() => {
+    document.body.style.overflow = 'hidden'
+    document.body.style.height = '100vh'
+
+    return () => {
+      document.body.style.overflow = ''
+      document.body.style.height = ''
+    }
+  }, [])
+
   return (
     <Container
       className="ip"

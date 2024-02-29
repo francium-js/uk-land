@@ -15,3 +15,26 @@ body {
 body.modal-open {
   overflow: hidden;
 }
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c1c1c1 #000000;
+}
+
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1;
+  border-radius: 10px;
+  border: 3px none #ffffff;
+}
+
+html {
+  background: black;
+}
