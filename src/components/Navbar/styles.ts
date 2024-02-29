@@ -15,6 +15,50 @@ export const Header = styled.div`
   }
 `
 
+export const ButtonBack = styled.div`
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 68px;
+  width: 68px;
+  border: 2px solid white;
+  border-radius: 10px;
+  transition: scale 0.2s ease;
+
+  @media screen and (max-width: 767px) {
+    height: 50px;
+    width: 50px;
+  }
+
+  @media screen and (max-width: 390px) {
+    height: 40px;
+    width: 40px;
+  }
+
+  &:hover {
+    scale: 1.05;
+    cursor: pointer;
+  }
+
+  & > p {
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    position: absolute;
+    display: flex;
+    font-size: 45px;
+    font-family: 'Minecraft';
+
+    @media screen and (max-width: 767px) {
+      font-size: 35px;
+    }
+
+    @media screen and (max-width: 390px) {
+      font-size: 25px;
+    }
+  }
+`
+
 export const HeaderContainer = styled.div`
   padding: 15px 100px;
   justify-content: space-between;
@@ -48,14 +92,13 @@ export const NavList = styled.div`
 
   & > p {
     font-family: 'Minecraft', sans-serif;
-    opacity: 0.8;
     padding: 30px 0px;
     margin: -30px 0px;
     font-weight: 500;
     font-size: 25px;
     transition: opacity 0.1s ease-in-out;
+
     &:hover {
-      opacity: 1;
       cursor: pointer;
     }
   }

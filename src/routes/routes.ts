@@ -2,5 +2,5 @@ export enum RoutesPath {
   HOME = '/',
   RULES = '/rules',
   WIKI = '/wiki',
-  ACHIEVEMENTS = '/achievements',
+  WIKI_ACH = '/wiki/:userName',
 }

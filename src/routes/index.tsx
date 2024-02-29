@@ -19,7 +19,7 @@ export const Router = createBrowserRouter([
       { path: RoutesPath.HOME, element: <HomePage /> },
       { path: RoutesPath.RULES, element: <RulePage /> },
       { path: RoutesPath.WIKI, element: <WikiPage /> },
+      { path: RoutesPath.WIKI_ACH, element: <AchievementsPage /> },
     ],
   },
-  { path: RoutesPath.ACHIEVEMENTS, element: <AchievementsPage /> },
 ])

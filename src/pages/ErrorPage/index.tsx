@@ -1,16 +1,15 @@
 import { useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
-
 import { Container } from 'src/pages/ErrorPage/styles'
 
 const ErrorPage = () => {
-  const navigate = useNavigate()
-
   useEffect(() => {
-    window.scrollTo(0, 0)
-    setTimeout(() => {
-      navigate('/')
-    }, 2000)
+    document.body.style.overflow = 'hidden'
+    document.body.style.height = '100vh'
+
+    return () => {
+      document.body.style.overflow = ''
+      document.body.style.height = ''
+    }
   }, [])
 
   return (

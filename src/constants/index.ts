@@ -10,3 +10,13 @@ export enum ACHIEVEMENTS_ICONS {
   STAR = 'star',
   OVAL = 'oval',
 }
+
+export enum CacheKeys {
+  ALL_USERS = 'all_users',
+  USER_ACHIEVEMENTS = 'user_achievements',
+}
+
+export enum FetchEndpoint {
+  USERS = 'users',
+  ACHIEVEMENTS = 'achievements',
+}
