@@ -32,7 +32,7 @@ const AchievementsMap = ({ mapRef }: AchievementsMapProps): JSX.Element => {
                 <IconContainer key={title} style={{ top, left }}>
                   <ContainerImage
                     style={{
-                      backgroundImage: `url(/src/assets/minecraftItems/${itemIcon}.png)`,
+                      backgroundImage: `url(/assets/minecraftItems/${itemIcon}.png)`,
                     }}
                   >
                     <AchievementsIcon
